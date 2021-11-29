@@ -1,0 +1,124 @@
+*{
+	box-sizing:border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin: 0px;
+	}
+main{
+	width: 100%;
+	position: relative;
+}
+header{
+	background-color:#29311A;
+	align-items: stretch;
+	color: white;
+	height: 120px;
+	margin: 0px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+@media(min-width: 768px){
+nav{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color:#5D6E3A;
+	margin: 0px;
+}
+.nagy_doboz{
+	display: flex;
+	background-color:#869E53;
+	padding: 20px 20px;
+}
+}
+nav{
+	justify-content: center;
+	text-align: center;
+	background-color:#5D6E3A;
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+}
+.nagy_doboz{
+	background-color:#869E53;
+	text-align: center;
+	min-height: 530px;
+	padding: 20px 20px;
+}
+h1{
+	justify-content: center;
+}
+.menu{
+	flex-basis: 10%;
+	padding: 0px 20px;
+	font-size: 20px;
+}
+@media(max-width: 768px){
+	.menu{
+		border-bottom: 1px solid white;
+	}
+}
+.menu a:hover{
+	color:#29311A;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.nagy_doboz>div{
+	padding: 15px;
+	align-content: center;
+	justify-content: center;
+
+}
+.kep{
+	flex-basis: 40%;
+	justify-content: center;
+}
+img{
+	height: 384px;
+	width: 288px;
+	border: 2px solid white;
+}
+.cím{
+	flex-basis: 60%;
+	text-align: center;
+	text-indent: initial;
+	font-size: 25px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.duma{
+	flex-basis: 60%;
+	text-align: justify;
+	color: white;
+	font-size: 18px;
+	padding-top: 15px;
+}
+footer{
+	background-color:#29311A;
+	border-top: 2px solid white;
+	height: 45px;
+}
+.galéria{
+	background-color:#869E53;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+.rajz{
+	flex-basis: 25%;
+	padding: 20px;
+	
+}
+.rajz1>img{
+	height: 288px;
+	width: 384px;
+	border: 2px solid white;
+}
+.m{
+	border-top: 0px;
+}
