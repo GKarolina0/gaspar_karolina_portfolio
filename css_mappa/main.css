@@ -9,6 +9,7 @@ body{
 main{
 	width: 100%;
 	position: relative;
+	height: auto;
 }
 header{
 	background-color:#29311A;
